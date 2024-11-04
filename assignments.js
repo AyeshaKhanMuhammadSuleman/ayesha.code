@@ -112,3 +112,34 @@
 // let perday = 3;
 // document.write("Per day intake : " , perday , "<br>")
 // document.write( " You will need snacks for the rest of your life is :" , perday*(maxAge-age) )
+//CHAPTER 6
+// QUESTION 1
+// let a = 10;
+// console.log("The value of a : " , a);
+// console.log("The value of ++a : " , ++a);
+// console.log("Now the value of a: " , a);
+// console.log("The value of a++ : " , a++)
+// console.log("Now the value of a is : " , a);
+// console.log("The value of --a : " , --a);
+// console.log("Now the value of a : " , a);
+// console.log("The value of a-- : " , a--);
+// console.log("Now the value of a : " , a)
+// QUESTION 2
+// let a = 2;
+// console.log(a);
+// let b = 1;
+// console.log(b);
+// console.log("RESULT");
+// console.log( --a);
+// console.log(--a - --b);
+// console.log(--a - --b + ++b);
+// console.log(--a - --b + ++b + b);
+ //QUESTION 3
+//  let a = prompt("ENTER YOUR NAME : " );
+//  document.write("Assalam-U-Alaikum! " , a);
+//QUESTION 5
+// let table = prompt("Enter a number");
+
+// for(let i=1; i<=10; i++){
+//     document.write(table + " X " + i + " = " + table*i +"<br>")
+// }
