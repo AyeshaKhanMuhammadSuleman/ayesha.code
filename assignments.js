@@ -112,4 +112,3 @@
 // let perday = 3;
 // document.write("Per day intake : " , perday , "<br>")
 // document.write( " You will need snacks for the rest of your life is :" , perday*(maxAge-age) )
-
