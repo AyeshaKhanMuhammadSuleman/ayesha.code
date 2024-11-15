@@ -143,3 +143,170 @@
 // for(let i=1; i<=10; i++){
 //     document.write(table + " X " + i + " = " + table*i +"<br>")
 // }
+// cityName = prompt("Enter your city name:");
+
+
+// if (cityName.toLowerCase() === "karachi") {
+//   alert("Welcome to the City of Lights!");
+// } else {
+//   alert(`Welcome to ${cityName}!`);
+// }
+
+// fuel = parseFloat(prompt("Enter remaining fuel in litres:"));
+
+// if (fuel < 0.25) {
+//   alert("Please refill the fuel in your car");
+// } else {
+//   alert(`You have ${fuel} litres of fuel left.`);
+// }
+//  secretNumber = Math.floor(Math.random(2) * 10) + 1;
+//  userGuess = parseInt(prompt("Guess the secret number (1-10):"));
+// if (userGuess === secretNumber) {
+//   alert("Bingo! Correct answer");
+// } else if (userGuess + 1 === secretNumber || userGuess - 1 === secretNumber) {
+//   alert("Close enough to the correct answer");
+// } else {
+//   alert(`Sorry, incorrect answer. The secret number was ${secretNumber}.`);
+// }
+
+//  num = parseInt(prompt("Enter a number:"));
+// if (num % 3 === 0) {
+//   alert(`${num} is divisible by 3.`);
+// } else {
+//   alert(`${num} is not divisible by 3.`);
+// }
+//  num = (prompt("Enter a number:"));
+// if (num % 2 === 0) {
+//   alert(`${num} is an even number.`);
+// } else {
+//   alert(`${num} is an odd number.`);
+// }
+//  temp = (prompt("Enter temperature in °C:"));
+// if (temp > 40) {
+//   alert("It is too hot outside.");
+// } else if (temp > 30) {
+//   alert("The Weather today is Normal.");
+// } else if (temp > 20) {
+//   alert("Today’s Weather is cool.");
+// } else if (temp > 10) {
+//   alert("OMG! Today’s weather is so Cool.");
+// } else {
+//   alert("It's freezing! Stay warm.");
+// }
+
+//  num1 = (prompt("Enter First number:"));
+//  operation = prompt("Enter operation (+, -, *, /, %):");
+//  num2 = (prompt("Enter Second number:"));
+
+
+// if (operation === "+") {
+//   const result = num1 + num2;
+//   alert(`${num1} + ${num2} = ${result}`);
+// } else if (operation === "-") {
+//   const result = num1 - num2;
+//   alert(`${num1} - ${num2} = ${result}`);
+// } else if (operation === "*") {
+//   const result = num1 * num2;
+//   alert(`${num1} * ${num2} = ${result}`);
+// } else if (operation === "/") {
+//   if (num2 !== 0) {
+//     const result = num1 / num2;
+//     alert(`${num1} / ${num2} = ${result}`);
+//   } else {
+//     alert("Error: Division by zero!");
+//   }
+// } else if (operation === "%") {
+//   const result = num1 % num2;
+//   alert(`${num1} % ${num2} = ${result}`);
+// } else {
+//   alert("Invalid operation!");
+// }
+//  var a = 4; 
+// if (++a === 5){ 
+// alert("given condition for variable a is true"); 
+// } 
+// wrking
+
+//  var b = 82; 
+// if (b++ === 83){ 
+// alert("given condition for variable b is true"); 
+// } 
+//not working
+
+// var c = 12; 
+// if (c++ === 13){ 
+// alert("condition 1 is true"); 
+// } 
+// if (c === 13){ 
+// alert("condition 2 is true"); 
+// } 
+// if (++c < 14){ 
+// alert("condition 3 is true"); 
+// } 
+// if(c === 14){ 
+// alert("condition 4 is true"); 
+// } 
+//only condition 2 and 4 is true
+
+//  var materialCost = 20000; 
+// var laborCost = 2000; 
+// var totalCost = materialCost + laborCost; 
+// if (totalCost === laborCost + materialCost){ 
+// alert("The cost equals"); 
+// } 
+// working
+
+//  if (true){ 
+// alert("True"); 
+// } 
+// if (false){ 
+// alert("False"); 
+// }
+// //working
+
+//  color = prompt("Enter traffic signal color (RED, YELLOW, GREEN):").toUpperCase();
+
+// switch (color) {
+//   case "RED":
+//     alert("MUST STOP");
+//     break;
+//   case "YELLOW":
+//     alert("READY TO MOVE");
+//     break;
+//   case "GREEN":
+//     alert("MOVE NOW");
+//     break;
+//   default:
+//     alert("Invalid color. Please enter RED, YELLOW, or GREEN.");
+// }
+//  sub1 = parseFloat(prompt("Enter marks obtained in Subject 1:"));
+//  sub2 = parseFloat(prompt("Enter marks obtained in Subject 2:"));
+//  sub3 = parseFloat(prompt("Enter marks obtained in Subject 3:"));
+// totalMarks = parseFloat(prompt("Enter total marks:"));
+//  totalObtained = sub1 + sub2 + sub3;
+// const percentage = (totalObtained / totalMarks) * 100;
+// let grade;
+// let remarks;
+// if (percentage >= 90) {
+//   grade = "A+";
+//   remarks = "You did Amazing"
+// } else if (percentage >= 80) {
+//   grade = "A";
+//   remarks = "Great Work"
+// } else if (percentage >= 70) {
+//   grade = "B";
+//   remarks = "You need to improve"
+// } else if (percentage >= 60) {
+//   grade = "C";
+//   remarks = "Need to do hardwork"
+// } else if (percentage >= 50) {
+//   grade = "D";
+// } else {
+//   grade = "F";
+// }
+
+// document.write(`Total Marks Obtained: ${totalObtained} / ${totalMarks}` , "<br>");
+// document.write("percentage :" , totalObtained / totalMarks * 100 , "<br>");
+// document.write(`Grade: ${grade}`, "<br>"); 
+// document.write( "Remarks: " , remarks);
+
